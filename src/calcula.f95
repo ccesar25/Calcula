@@ -1,8 +1,9 @@
 ! Calcula (Calulador Geral) feita em Fortran para Álgebra e Matemática Computacional.
 ! Written by Caio Cesar, 2023
-! v0.1a
+! v0.1b
         
         PROGRAM Calcula
+            implicit none
             INTEGER :: X, Y, Z
             REAL :: RX, RY, RZ
             LOGICAL :: L0, L1, L2, L3
