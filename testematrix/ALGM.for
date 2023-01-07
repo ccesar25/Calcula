@@ -26,7 +26,7 @@
 15              M0(3,5) = 8   
                 !display the values
                  do i=1,3
-                         do j = 1, 3
+                         do j = 1, 5
                                  Print *, M0(i,j)
                         end do
                 end do
