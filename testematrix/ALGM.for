@@ -1,3 +1,6 @@
+       ! Possivel modulo para a Calcula para calculos com matrizes.
+       ! Written by Caio Cesar, jan 2023.
+       ! v0.1a 
       PROGRAM ALGMATRIX
         ! IMPLICIT NONE  >> DEIXO AS VARIAVEIS IMPLICITAS LIGADAS <<
         LOGICAL :: L0, FLUX0
@@ -24,8 +27,8 @@
 13              M0(3,3) = 8
 14              M0(3,4) = 8
 15              M0(3,5) = 8   
-                !display the values
-                 do i=1, 3
+                ! Imprimir valores da Matrix (M0)
+                 do i = 1, 3
                          do j = 1, 5
                                  Print *, M0(i,j)
                         end do
